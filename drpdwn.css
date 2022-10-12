@@ -1,0 +1,41 @@
+body{
+    background: url('lib.png')no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+
+    
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+ul li{
+    float: left;
+    width: 270px;
+    height: 100px;
+    line-height: 100px;
+    opacity: .7;
+    background-color: darkgreen;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    font-size: larger;
+}
+ul li a:hover{
+    background-color: darkorange;
+}
+ul li ul{
+    display: none;
+    
+}
+ul li:hover ul{
+    display: block;
+}
